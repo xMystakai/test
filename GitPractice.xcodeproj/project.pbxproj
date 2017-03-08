@@ -14,6 +14,7 @@
 		9ABF85111E706EE800719645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF850F1E706EE800719645 /* LaunchScreen.storyboard */; };
 		9ABF851C1E706EE800719645 /* GitPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF851B1E706EE800719645 /* GitPracticeTests.swift */; };
 		9ABF85271E706EE800719645 /* GitPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF85261E706EE800719645 /* GitPracticeUITests.swift */; };
+		C1ECEE991E70792100479A07 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ECEE981E70792100479A07 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9ABF85221E706EE800719645 /* GitPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABF85261E706EE800719645 /* GitPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPracticeUITests.swift; sourceTree = "<group>"; };
 		9ABF85281E706EE800719645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1ECEE981E70792100479A07 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		9ABF84FA1E706EE800719645 = {
 			isa = PBXGroup;
 			children = (
+				C1ECEE981E70792100479A07 /* File.swift */,
 				9ABF85051E706EE800719645 /* GitPractice */,
 				9ABF851A1E706EE800719645 /* GitPracticeTests */,
 				9ABF85251E706EE800719645 /* GitPracticeUITests */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ABF85091E706EE800719645 /* ViewController.swift in Sources */,
+				C1ECEE991E70792100479A07 /* File.swift in Sources */,
 				9ABF85071E706EE800719645 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +518,7 @@
 				9ABF852D1E706EE800719645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ABF852E1E706EE800719645 /* Build configuration list for PBXNativeTarget "GitPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				9ABF85301E706EE800719645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ABF85311E706EE800719645 /* Build configuration list for PBXNativeTarget "GitPracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				9ABF85331E706EE800719645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
